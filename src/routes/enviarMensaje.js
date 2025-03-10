@@ -52,8 +52,11 @@ app.post("/send-email", (req,res)=>{
 app.get('/external-data', async (res) => {
     try {
       // Hacemos la solicitud a la URL externa
-      const response = await axios.get('https://www.linkedin.com/in/jaguil2024/',
-        'https://github.com/jaguil320/jaguil320', '//www.twitch.tv/kidjt20', 'https://www.instagram.com/jaguil.vzla/profilecard/?igsh=MTd3b2wyY3VrdWpjcA=='
+      const response = await axios.get(
+        'https://www.linkedin.com/in/jaguil2024/',
+        'https://github.com/jaguil320/jaguil320', 
+        '//www.twitch.tv/kidjt20', 
+        'https://www.instagram.com/jaguil.vzla/profilecard/?igsh=MTd3b2wyY3VrdWpjcA=='
       );
   
       // Enviamos los datos recibidos al cliente

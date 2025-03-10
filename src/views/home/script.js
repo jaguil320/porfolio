@@ -53,7 +53,7 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Developer Full Stack &#128187;', 'Diseñador Grafico &#127909;', 'Especialista de Marketing &#x1f3af;'],
+    strings: ['Desarrollador Full Stack &#128187;', 'Diseñador Grafico &#127909;', 'Especialista en Marketing &#x1f3af;'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
